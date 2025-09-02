@@ -4,13 +4,23 @@ layout: page
 permalink: /contact
 ---
 
-# Get in touch?
+# Write Me
 
-<form>
-  <input type="text" id="name" name="name" placeholder="name:" autocomplete="off">
-  <input type="text" id="email" name="email" placeholder="email:" autocomplete="off">
-  <textarea rows="5" id="message" name="message" placeholder="message:" autocomplete="off"></textarea>
-  <input type="submit" value="[ submit ]">
-</form>
+Whether you want to collab or just say some nice words, message me anytime! Just keep in mind that obligations (such as
+sleep) might cause some delay with answers. :)
 
-<br /><br />(This is a demo site, the form doesn't work - If you want to implement a form on your site, you need an external service)
+Also, feel free to join my Discord server! That way you'll be the first to know what I'm cookin' up in my DAW, or when
+and where I play.
+
+## Contact Options
+
+(links lead to external sites)
+
+|  E-Mail   |                        [music@basstronaut.de](mailto:music@basstronaut.de)                        |
+|:---------:|:-------------------------------------------------------------------------------------------------:|
+| WhatsApp  |                                         +49 1523 1656196                                          |
+| Instagram | <a class="hacky-button-instagram" href="https://instagram.com/thebasstronaut">@thebasstronaut</a> |
+|  Discord  |  <a class="hacky-button-discord" href="https://discord.com/users/295641954577022978">@1gadse</a>  |
+
+See also: <a class="hacky-button" href="https://linktr.ee/thebasstronaut">My Digital Business Card</a> on Linktree (
+externe Seite).

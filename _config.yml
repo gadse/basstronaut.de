@@ -1,19 +1,23 @@
 title: 'The Bass Station'
 description: "A jekyll theme inspired by linux consoles for hackers, developers and script kiddies."
-baseurl: "/jekyll-theme-console-demo-dark"
+baseurl: ""
 url: "https://b2a3e8.github.io"
 
 header_pages:
   - index.md
   - discography.md
+  - live.md
   - about.md
   - contact.md
+  - impressum.md
+  - legal.md
+  - licenses.md
 
 style: dark  # dark (default), light or hacker
 # listen_for_clients_preferred_style: true  # false (default) or true
 
 footer:
-  '<a href="https://soundcloud.com/justabasstronaut">soundcloud</a> | <a href="https://instagram.com/@thebasstronaut">instagram</a>'
+  'MADE WITH <span class="less-than-three"><3</span> IN KARLSRUHE <span class="uwu">^w^</span> <a class="hacky-button-instagram" href="https://instagram.com/thebasstronaut">Instagram</a> <a class="hacky-button-apple" href="https://music.apple.com/de/artist/basstronaut/1592675229">Apple Music</a> <a class="hacky-button-spotify" href="https://open.spotify.com/artist/6pca4zK3i3RHlKr2HbYMWZ">Spotify</a> <a class="hacky-button-youtube" href="https://www.youtube.com/@BasstronautMusic">Youtube</a> '
 
 # Build settings
 markdown: kramdown
