@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "helloworld.md"
-date:    23:32:00 +0200
+date:    2025-09-02 23:32:00 +0200
 categories:
+  - story
 ---
 
 # helloworld.md

@@ -3,17 +3,22 @@ title: /index
 layout: home
 permalink: /
 ---
-# Welcome To The Bass Station
 
-You've heard of this legendary interstellar traveller. A being bored by earthly existence. He took his trusty bass guitar and synths and ventured forth into the abyssal blackness of space to tap the cosmic core for sounds unheard.
+<img alt="image" class="index-pic" src="assets/img/bass_pic_9.jpg"/>
 
-You decided to follow his trail and found an old but still airtight space station left over from the Babylon program. Most of the exterior LEDs are dysfunctional, but you can clearly see someone rearranged them to spell "BASS STATION". You decided to dock.
+# Hi, I'm Peter
 
-You are in the dimly-lit entrance hall. Nobody sits at the greeting desk at the opposite end, yet a small desk radiates its warm incandescent light rays onto the computer keyboard. The tech has seen better days, but it appears functional. The fans hum their contemplative sigh.
+I'm a bassist, synthhead, composer and DJ from Karlsruhe, Germany. I'm an audio, computer, and gaming nerd. If you are nerdy as well, you might want to follow the big bright link at the bottom of this paragraph now. :)
 
-You hear a distant rumbling emanating from the corridor on the right. All the while you notice a small stereo on the left, together with some vinyls and cassette tapes on a small shelf on the wall to your left.
+ - [About me](about)
+ - [My music](discography)
+ - [See me live](live)
+ - [Contact me](contact)
 
-<span class="alarm">[!] Do you want to...</span>
-... look at the [contact details](contact) displayed on the dek computer's screensaver?
-... follow the [rumbling](live) emanating form the corridor?
-... have a look at the [discography](discography) displayed on the wall?
+<p>
+#################
+Enter <a class="hacky-button" href="story">Story Mode</a>
+#################
+</p>
+
+# Recent Blog Articles

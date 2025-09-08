@@ -9,13 +9,13 @@ permalink: /about
 
 I'm a musician based in _Karlsruhe, Germany_. I live for the _electric bass_ and _synthesizers_. I started writing my own original music and mixing other artists' songs back in 2020.
 
-<img alt="image" class="vertical-portrait" src="assets/img/bass_live_pic_1_lofi.jpg"/>
+<img alt="image" class="right-portrait" src="assets/img/bass_pic_19.jpg"/>
 
 # My Philosophy
 
 No matter which instrument you play, or if you use your voice, _the song always comes first_. Great solos are great. But a solo is nothing without the proper buildup, support, and release. As a bassist, a guitarist, keys player, or mix engineer, I always prioritize the song over the individuals. When I play live with you, I won't show off -- unless you want me to!
 
-<img alt="image" class="horizontal-portrait" src="assets/img/bass_theme_pic_1_lofi.jpg"/>
+<img alt="image" class="left-portrait" src="assets/img/bass_pic_20.jpg"/>
 
 # Let's Collab
 

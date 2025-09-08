@@ -21,6 +21,7 @@ and where I play.
 | WhatsApp  |                                         +49 1523 1656196                                          |
 | Instagram | <a class="hacky-button-instagram" href="https://instagram.com/thebasstronaut">@thebasstronaut</a> |
 |  Discord  |  <a class="hacky-button-discord" href="https://discord.com/users/295641954577022978">@1gadse</a>  |
+ | Twitch |      <a class="hacky-button-twitch" href="https://www.twitch.tv/grizz_metal">grizz_metal</a>      |
 
-See also: <a class="hacky-button" href="https://linktr.ee/thebasstronaut">My Digital Business Card</a> on Linktree (
+See also: <a class="hacky-button" href="https://linktr.ee/thebasstronaut">My Socials Overview</a> on Linktree (
 externe Seite).

@@ -5,9 +5,11 @@ url: "https://b2a3e8.github.io"
 
 header_pages:
   - index.md
+  - story.md
   - discography.md
   - live.md
   - about.md
+  - pics.md
   - contact.md
   - impressum.md
   - legal.md
@@ -17,7 +19,7 @@ style: dark  # dark (default), light or hacker
 # listen_for_clients_preferred_style: true  # false (default) or true
 
 footer:
-  'MADE WITH <span class="less-than-three"><3</span> IN KARLSRUHE <span class="uwu">^w^</span> <a class="hacky-button-instagram" href="https://instagram.com/thebasstronaut">Instagram</a> <a class="hacky-button-apple" href="https://music.apple.com/de/artist/basstronaut/1592675229">Apple Music</a> <a class="hacky-button-spotify" href="https://open.spotify.com/artist/6pca4zK3i3RHlKr2HbYMWZ">Spotify</a> <a class="hacky-button-youtube" href="https://www.youtube.com/@BasstronautMusic">Youtube</a> '
+  'MADE WITH <span class="less-than-three"><3</span> IN KARLSRUHE <span class="uwu">^w^</span> <a class="hacky-button-instagram" href="https://instagram.com/thebasstronaut">Instagram</a> <a class="hacky-button-spotify" href="https://open.spotify.com/artist/6pca4zK3i3RHlKr2HbYMWZ">Spotify</a> <a class="hacky-button-apple" href="https://music.apple.com/de/artist/basstronaut/1592675229">Apple Music</a> <a class="hacky-button-twitch" href="https://www.twitch.tv/grizz_metal">Twitch</a> <a class="hacky-button-youtube" href="https://www.youtube.com/@BasstronautMusic">Youtube</a>   '
 
 # Build settings
 markdown: kramdown

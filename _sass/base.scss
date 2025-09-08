@@ -27,7 +27,7 @@ $sub-header-font-family: 'subHeaderFont', Serif !default;
 $base-font-size: 12px !default;
 $text-font-size: 2 * $base-font-size !default;
 $header-font-size: 3 * $base-font-size !default;
-$mobile-font-size: 16px !default;
+$mobile-font-size: $text-font-size !default;
 $base-line-height: 1.2 !default;
 $container-width: 90% !default;
 $container-max-width: 100rem;
@@ -80,11 +80,11 @@ a:hover {
   background-color: var(--base-color);
 }
 
-@media only screen and (max-device-width: 500px) {
-  * {
-    font-size: $mobile-font-size !important;
-  }
-}
+//@media only screen and (max-device-width: 500px) {
+//  * {
+//    font-size: $mobile-font-size !important;
+//  }
+//}
 
 /**
  * Layout
@@ -109,6 +109,7 @@ footer {
   margin: 20px auto 15px;
   padding-top: 10px;
   text-align: right;
+  line-height: 1.6;
 }
 
 header {
@@ -144,6 +145,26 @@ table {
   th, tr:nth-child(even) {
     background-color: var(--code-color-11);
   }
+}
+
+.pic-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.pics-left {
+  width: 100%;
+  height: fit-content;
+}
+
+.pics-right {
+  width: 100%;
+  height: fit-content;
+
+}
+
+.grid-pic {
+  width: 100%;
 }
 
 .hacky-button {
@@ -216,7 +237,7 @@ table {
   padding: 0.25rem;
 }
 
-.vertical-portrait {
+.right-portrait {
   float: right;
   min-width: 15rem;
   max-width: 25rem;
@@ -225,7 +246,7 @@ table {
   margin-right: 1rem;
 }
 
-.horizontal-portrait {
+.left-portrait {
   float: left;
   min-width: 20rem;
   max-width: 35rem;
@@ -235,8 +256,18 @@ table {
   margin-right: 1rem;
 }
 
+.index-pic {
+  float: left;
+  width: 35rem;
+  height: 25rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  object-fit: cover;
+  object-position: 100% 20%;
+}
+
 @media only screen and (max-width: 1366px) {
-  .vertical-portrait {
+  .right-portrait {
     float: right;
     min-width: 15rem;
     max-width: 25rem;
@@ -245,7 +276,7 @@ table {
     margin-right: 1rem;
   }
 
-  .horizontal-portrait {
+  .left-portrait {
     float: left;
     min-width: 20rem;
     max-width: 35rem;
@@ -255,24 +286,44 @@ table {
     margin-right: 1rem;
   }
 
+  .index-pic {
+    float: left;
+    width: 20rem;
+    height: 33rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    object-fit: cover;
+    object-position: top center;
+  }
+
 }
 
 @media only screen and (max-width: 700px) {
-  .vertical-portrait {
+  .right-portrait {
     float: none;
     width: 100%;
     min-width: 0;
     max-width: none;
-    margin: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
   }
 
-  .horizontal-portrait {
+  .left-portrait {
     float: none;
     width: 100%;
     min-width: 0;
     max-width: none;
-    margin: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
   }
+
+  .index-pic {
+    float: none;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    margin: 0;
+  }
+
 
 }
 
@@ -332,7 +383,7 @@ em {
   border-bottom: var(--border);
   margin-bottom: 25px;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 30% 70%;
 }
 
 .current-path {
@@ -355,6 +406,7 @@ em {
   text-align: right;
 }
 
+
 .menu ul li {
   display: inline-block;
   margin-left: 2rem;
@@ -369,6 +421,40 @@ em {
   text-decoration: none;
   color: var(--background-color);
   background-color: var(--base-color);
+}
+
+
+@media only screen and (max-width: 1366px) {
+  .menu {
+    border-top: var(--border);
+    border-bottom: var(--border);
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    ul {
+      li {
+        margin-left: 1rem;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu {
+    border-top: var(--border);
+    border-bottom: var(--border);
+    margin-bottom: 25px;
+    display: block;
+    line-height: 1.2;
+
+    ul {
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+  }
 }
 
 /**
