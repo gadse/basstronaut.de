@@ -6,7 +6,7 @@ permalink: /licenses
 
 # Use Of Licensed Material
 
-This website is a modification of https://github.com/b2a3e8/jekyll-theme-console bu Github user b2a3e8. The original work was licensed under the MIT license and thus used with permission:
+This website is a modification of [this theme](https://github.com/b2a3e8/jekyll-theme-console) by Github user b2a3e8. The original work was licensed under the MIT license and thus used with permission:
 
 > The MIT License (MIT)
 >
