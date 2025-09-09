@@ -9,7 +9,7 @@ permalink: /contact
 Whether you want to collab or just say some nice words, message me anytime! Just keep in mind that obligations (such as
 sleep) might cause some delay with answers. :)
 
-Also, feel free to join my Discord server! That way you'll be the first to know what I'm cookin' up in my DAW, or when
+Also, feel free to join my Discord server! That way you'll be the first to know what I'm cookin' up in my studio, or when
 and where I play.
 
 ## Contact Options
