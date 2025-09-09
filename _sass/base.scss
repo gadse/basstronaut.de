@@ -80,11 +80,6 @@ a:hover {
   background-color: var(--base-color);
 }
 
-//@media only screen and (max-device-width: 500px) {
-//  * {
-//    font-size: $mobile-font-size !important;
-//  }
-//}
 
 /**
  * Layout
@@ -233,6 +228,13 @@ table {
 .hacky-button-instagram {
   text-underline: none;
   background-color: #D62976;
+  color: var(--selection-text);
+  padding: 0.25rem;
+}
+
+.hacky-button-bandcamp {
+  text-underline: none;
+  background-color: #0CACD7;
   color: var(--selection-text);
   padding: 0.25rem;
 }

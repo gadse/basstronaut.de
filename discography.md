@@ -12,6 +12,8 @@ permalink: /discography
 
 <a class="hacky-button-youtube" href="https://www.youtube.com/@BasstronautMusic">Youtube</a> and <a class="hacky-button-youtube" href="https://music.youtube.com/channel/UCAcmrenel22MHbjCOgfy5dg">YouTube Music</a>
 
+<a class="hacky-button-bandcamp" href="https://thebasstronaut.bandcamp.com">Bandcamp</a>
+
 <a class="hacky-button-apple" href="https://music.apple.com/de/artist/basstronaut/1592675229">Apple Music</a>
 
 <a class="hacky-button-deezer" href="https://www.deezer.com/de/album/716794801">Deezer</a>
@@ -20,7 +22,7 @@ permalink: /discography
 
 <hr>
 
-Stuff that has not been programmed but played or modulated live is _emphasized_.
+Stuff that has not been programmed but played or modulated live is _emphasized_. If you want to support me, the best way (at the moment) is to purchase my music on <a class="hacky-button-bandcamp" href="https://thebasstronaut.bandcamp.com">Bandcamp</a> or <a class="hacky-button-apple" href="https://music.apple.com/de/artist/basstronaut/1592675229">Apple Music</a>. :) 
 
 (I'm still in the process of collecting old works and adding them here.)
 
