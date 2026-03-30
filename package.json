@@ -2,5 +2,8 @@
   "devDependencies": {
     "@types/node": "^25.5.0",
     "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "winston": "^3.19.0"
   }
 }
