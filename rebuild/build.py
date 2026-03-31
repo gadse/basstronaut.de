@@ -1,6 +1,7 @@
 import logging
 import os
 import os.path as path
+from AdvancedHTMLParser import AdvancedHTMLParser
 
 log = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -8,37 +9,50 @@ logging.basicConfig(level=logging.INFO)
 
 SRC_PATH = "./src"
 REFERENCES_PATH = "./references"
-
-HEADER_FILE_NAME = "header.html"
+HEADER_FILE_NAME = "./header.html"
 FOOTER_FILE_NAME = "footer.html"
 
 
-all_build_files = os.listdir(SRC_PATH)
-with open(path.join(SRC_PATH, HEADER_FILE_NAME)) as header_file:
-    header_file_content = header_file.read()
-with open(path.join(SRC_PATH, FOOTER_FILE_NAME)) as footer_file:
-    footer_file_content = footer_file.read()
-
-log.info("*** BUILD DIR ***********")
-log.info(all_build_files);
-log.info(f"*** HEADER CONTENT ****** \n{header_file_content}")
-log.info(f"*** FOOTER CONTENT ****** \n{footer_file_content}")
+def get_body(filename):
+    parser = AdvancedHTMLParser()
+    parser.parseFile(path.join(SRC_PATH, filename))
+    body = parser.body
+    return str(body.text.strip())
 
 
-content_files = [
-    filename for filename
-    in all_build_files
-    if filename != HEADER_FILE_NAME and filename != FOOTER_FILE_NAME
-]
-log.info(f"*** CONTENT FILES ****** \n{content_files}")
+def read_header():
+    return get_body(HEADER_FILE_NAME)
+
+
+def read_footer():
+    return get_body(FOOTER_FILE_NAME)
+
+
+def list_content_files():
+    return [
+        filename
+        for filename in all_build_files
+        if filename != HEADER_FILE_NAME and filename != FOOTER_FILE_NAME
+    ]
+
+
+def list_all_build_files() -> list[str]:
+    return os.listdir(SRC_PATH)
+
+
+all_build_files = list_all_build_files()
+content_files = list_content_files()
+header_file_content = read_header()
+footer_file_content = read_footer()
+
+log.info(f"*** BUILD DIR ***********\n{all_build_files}")
+log.info(f"*** HEADER CONTENT ******\n{header_file_content}")
+log.info(f"*** FOOTER CONTENT ******\n{footer_file_content}")
+log.info(f"*** CONTENT FILES ******\n{content_files}")
 
 for filename in content_files:
-    with open(path.join(SRC_PATH, filename)) as f:
-        log.info(f"Processing {filename}")
-        content = f.readlines()
-        body_start = content.index("<body>\n")
-        body_end = content.index("</body>\n")
-        body_content = "\n".join(content[body_start + 1 : body_end])
-        log.info(f"*** PURE CONTENT ****** \n{body_content}")
+    log.info(f"Processing {filename}")
+    body_content = get_body(filename)
+    log.info(f"*** PURE CONTENT ****** \n{body_content}")
 
 log.info("*************************")
