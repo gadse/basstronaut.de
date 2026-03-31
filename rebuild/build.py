@@ -39,8 +39,10 @@ def list_content_files():
 def list_all_build_files() -> list[str]:
     return os.listdir(SRC_PATH)
 
+
 def enrich(content, header="", footer=""):
     return "\n".join([header, content, footer])
+
 
 if __name__ == "__main__":
     all_build_files = list_all_build_files()
@@ -54,8 +56,8 @@ if __name__ == "__main__":
     log.info(f"*** CONTENT FILES ******\n{content_files}")
 
     for filename in content_files:
-        log.info(f"Processing {filename}")
         body_content = get_body(filename)
-        log.info(enrich(body_content, header, footer))
+        enriched = enrich(body_content, header, footer)
+        log.info(f"Processed {filename}\n{enriched}")
 
     log.info("*************************")
