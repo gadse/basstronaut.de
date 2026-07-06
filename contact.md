@@ -4,6 +4,12 @@ layout: page
 permalink: /contact
 ---
 
+# Like What You're Hearing?
+
+The best way to support me is bying my music through [Ko-Fi](https://ko-fi.com/basstronaut) or [Bandcamp](https://thebasstronaut.bandcamp.com).
+
+If you really like what you're hearing and want to  make a contribution to further works, consider a monthly support package - both Ko-Fi and Bandcamp offer these.
+
 # Write Me
 
 Whether you want to collab or just say some nice words, message me anytime! Just keep in mind that obligations (such as
